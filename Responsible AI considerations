@@ -1,0 +1,22 @@
+Risk of Bias in data :
+The risk of bias in insurance fraud detection arises when historical claim data contains unfair patterns, imbalanced fraud 
+examples, or biased investigations, causing the AI model to make unfair or inaccurate fraud predictions for certain customers 
+or groups.
+Risk of incorrect predictions:
+The risk of incorrect predictions in insurance fraud detection includes false positives that wrongly flag genuine claims and 
+false negatives that miss fraudulent claims, leading to customer dissatisfaction, financial losses, and reduced trust in the 
+system.
+Risk of privacy concerns:
+The risk of privacy concerns in insurance fraud detection arises because the AI system processes sensitive personal, 
+financial, and medical customer data, which may be exposed, misused, or accessed without proper security and privacy controls
+Risk of over- reliance on AI
+The risk of over-reliance on AI in insurance fraud detection occurs when organizations depend too heavily on automated 
+predictions without human oversight, potentially causing incorrect claim decisions, missed fraud cases, unfair outcomes, 
+and reduced accountability.
+Impact on users:
+AI’s impact on users is not one-directional. It is best understood as a trade-off: higher capability and convenience 
+on one side, and new risks around trust, fairness, privacy, and dependency on the other.
+Need for human oversight:
+the need for human oversight is a critical safety mechanism, but it also introduces trade-offs in scalability, cost, 
+reliability, and accountability. The core risk is not just that oversight is required—but that it is often imperfectly 
+implemented, yet relied upon as if it were fully reliable.
