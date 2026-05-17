@@ -1,0 +1,21 @@
+Business Domain: Insurance
+Define the business problem:
+what problem is being solved ? - claim fraud detection
+who are the users or stakeholders ?-
+Insurance Companies	Use the AI system to detect fraudulent claims
+Claim Investigators	Review suspicious claims flagged by the model
+Insurance Agents	Handle customer claims and policy information
+Customers / Policyholders	Submit insurance claims
+Fraud Detection Teams	Monitor and investigate fraud patterns
+Data Scientists / AI Engineers	Build and maintain the fraud detection model
+Compliance & Regulatory Teams	Ensure fair and legal claim processing
+Business Managers	Monitor operational efficiency and fraud reduction
+What is the current manual or traditional process ?
+The traditional/manual process for insurance claim fraud detection mainly relies on human review, rule-based checks, 
+and investigation teams to identify suspicious claims.
+What are the limitations of the current process ?
+It is usually slower, labor-intensive, and less scalable compared to AI-based systems.
+AI task type: Anomaly detection / Classification
+Anomaly detection and classification are suitable AI task types for insurance claim fraud detection because fraudulent claims 
+usually behave differently from normal claims and can therefore be identified as unusual patterns or classified into 
+fraud/non-fraud categories.
