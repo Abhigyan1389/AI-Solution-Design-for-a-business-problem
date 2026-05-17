@@ -1,0 +1,165 @@
+Type of Data Needed: Structured data i.e. data in tabular form
+Input features: Customer Information, Policy Information, Claim Information, Behavioral features, external verification data
+Target variable or lable: 0 - Genuine claim; 1- fraudulent claim
+Data collection method: Claims Submission Systems, Internal Insurance Databases, Third Party Sources, 
+Data Quality Risks: Missinf data, imbalanced data,incorrect labels, duplicate records, noisy data
+evolving fraud patterns, privacy and security risks
+
+Suitable model or achitecture: Feed-Forward Neural Network
+Reason:
+A Feed-Forward Neural Network is the most suitable architecture for insurance claim fraud detection because the problem 
+mainly uses structured tabular data and requires binary classification of fraudulent vs genuine claims.
+Evaluation Plan:
+The insurance claim fraud detection solution should be evaluated using both technical AI metrics and business performance 
+metrics to ensure the model is accurate, reliable, and useful in real-world insurance operations.
+Evaluation Plan:
+1. Objective
+Evaluate the AI-based fraud detection system to ensure it:
+a.) accurately detects fraudulent claims
+b.) minimizes false fraud alerts
+c.) improves operational efficiency
+d.)reduces financial losses
+e.) supports human investigators effectively
+2. Evaluation Scope
+
+The evaluation will measure:
+i.) Area	Purpose
+ii) Technical Performance	Assess prediction quality
+iii) Business Impact	Measure operational benefits
+iv) Reliability	Identify failure risks
+v) Human Validation	Ensure trustworthy decisions
+3. Dataset Evaluation Strategy
+Data Split
+The dataset will be divided into:
+Dataset	Percentage
+Training Set	70%
+Validation Set	15%
+Testing Set	15%
+Purpose:
+Training → model learning
+Validation → hyperparameter tuning
+Testing → final unbiased evaluation
+4. Technical Evaluation Metrics
+4.1 Accuracy
+Measures overall correct predictions.
+Accuracy=
+TP+TN+FP+FN
+TP+TN	
+Goal:
+high overall prediction accuracy
+4.2 Precision
+Measures how many flagged fraud claims are actually fraudulent.
+Precision=
+TP+FP
+Importance:
+reduces false fraud accusations
+Target:
+high precision
+4.3 Recall (Most Important)
+Measures how many actual fraud cases are detected.
+Recall=
+TP+FN
+Importance:
+missing fraud cases is costly
+Target:
+maximize recall
+4.4 F1-Score
+Balances precision and recall.
+F1=2×
+Precision+Recall
+Precision×Recall
+Used because:
+fraud datasets are imbalanced
+4.5 Confusion Matrix
+Analyzes:
+correct fraud detection
+missed fraud cases
+false alerts
+4.6 ROC-AUC Score
+Measures fraud detection capability across thresholds.
+Target:
+AUC close to 1
+5. Business Evaluation Metrics
+5.1 Fraud Detection Rate
+Percentage of fraudulent claims successfully identified.
+5.2 Financial Loss Reduction
+Measure reduction in fraud-related payouts.
+Example:
+savings after AI deployment
+5.3 Claim Processing Time
+Compare:
+manual review time
+AI-assisted review time
+Goal:
+faster claim handling
+5.4 Investigator Productivity
+Measure:
+number of claims reviewed per day
+investigation efficiency
+5.5 False Investigation Rate
+Monitor:
+genuine customers incorrectly flagged
+Goal:
+minimize customer inconvenience
+6. Human Review & Validation Process
+Step 1: AI Fraud Prediction
+AI assigns:
+fraud probability score
+Step 2: Suspicious Claim Flagging
+High-risk claims are:
+forwarded to investigators
+Step 3: Human Investigation
+Experts review:
+documents
+claim history
+evidence
+customer details
+Step 4: Final Decision
+Human investigators:
+approve
+reject
+request more evidence
+AI supports decisions but does not fully replace humans.
+7. Possible Failure Cases
+Failure Case	Risk
+False Positives	Genuine claims flagged as fraud
+False Negatives	Fraudulent claims missed
+Data Imbalance	Model biased toward genuine claims
+Evolving Fraud Patterns	New fraud methods undetected
+Poor Data Quality	Incorrect predictions
+Biased Historical Data	Unfair fraud detection
+8. Risk Mitigation Strategies
+Risk	Mitigation
+Class imbalance	SMOTE / weighted loss
+Overfitting	Regularization & validation
+Data drift	Periodic retraining
+False positives	Human review system
+Noisy data	Data cleaning & validation
+9. Monitoring After Deployment
+The deployed system should continuously monitor:
+fraud trends
+prediction accuracy
+false alert rates
+investigator feedback
+Model retraining should occur periodically.
+10. Success Criteria
+The solution is considered successful if it:
+detects high percentage of fraud cases
+reduces fraud-related losses
+improves claim processing speed
+maintains acceptable false positive rates
+supports investigators efficiently
+11. Final Workflow
+Claim Submission
+→ AI Fraud Scoring
+→ Suspicious Claim Detection
+→ Human Investigation
+→ Final Claim Decision
+12. Final Conclusion
+The evaluation plan combines:
+technical AI metrics
+operational business impact
+human validation
+continuous monitoring
+
+to ensure the fraud detection system is accurate, reliable, fair, and effective in real-world insurance operations
